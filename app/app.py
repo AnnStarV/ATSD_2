@@ -1,6 +1,6 @@
 import json
 from random import randint
-
+import eel
 
 #
 # class Node:
@@ -260,3 +260,7 @@ from random import randint
 # B.print_tree(B.root)
 #
 # # B.print_tree(B.root)
+
+
+eel.init("web")
+eel.start("index.html", size=(1000, 900))
